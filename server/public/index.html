@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <title>SENSOR ARDUINO</title>
+</head>
+<body>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/main.js"></script>
+  
+  <div class="container-fluid">
+    <div class="callout">...</div>
+    <div class="row">
+      <div class="col-sm">
+        One of three columns
+      </div>
+      <div class="col-sm">
+        <div class="card" style="width: 18rem;">
+          <button type="button" class="btn btn-primary">
+            Profile <span id="fotosensor" class="badge bg-secondary">0</span>
+            <span class="visually-hidden">unread messages</span>
+          </button>
+          <div class="card-body">
+            <h5 class="card-title">NIVEL LUMINICO</h5>
+            <p class="card-text">Medicion a traves de socket io, nodejs, y lectura del puerto serial local, el cual recepciona
+              data proveniente desde un arduino.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm">
+        One of three columns
+      </div>
+    </div>
+  </div>
+</body>
+</html>
